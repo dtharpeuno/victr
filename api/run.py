@@ -37,7 +37,7 @@ data = DataInterface(PyProjects, db)
 
 #routes
 @app.route('/')
-def base():
+def health_check():
     return {'success': True}
 
 @app.route("/api/projects/all", methods = ['GET'])
