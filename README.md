@@ -30,13 +30,9 @@ This is a general postgres instance.
 
 **`backend`**
 
-Docker container => `victr_backend_1`
-
 The `api` folder is the main `Flask` application that leverges the entire backend, which mainly funcitons as an API for the front-end app.
 
 **`frontend`**
-
-Docker container => `victr_frontend_1`
 
 The `app` folder is the main front-end application for the project that is built with `Material UI`, `create-react-app` boilerplate, and leverages Web API's like `fetch` for API/backend layer interaction as well as `JSS` for general styling of front end components.
 
